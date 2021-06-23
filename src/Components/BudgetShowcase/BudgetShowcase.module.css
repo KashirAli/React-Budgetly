@@ -1,0 +1,54 @@
+.showcase{
+    width: 100%;
+    height: 300px;
+    background:url('../../Assets//showcase.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.coloroverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    opacity: 0.8;
+ }
+ .container{
+     position:absolute;
+     left:35%;
+     top:40px;
+ }
+ .text{
+     text-align: center;
+     color:white;
+ }
+ .value{
+    text-align: center;
+    color:white;
+    font-size: 2.5em;
+}
+ .Data{
+     display:grid;
+     grid-template-columns: auto auto;
+     justify-content: space-between;
+     width: 400px;
+     height:auto;
+     padding:15px 30px;
+     background:green;
+     margin: 15px 0px;
+     border-radius: 25px;
+ }
+
+ .DataExpense{
+    display:grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    width: 400px;
+    height:auto;
+    padding:15px 30px;
+    background:red;
+    margin: 15px 0px;
+    border-radius: 25px;
+
+}
